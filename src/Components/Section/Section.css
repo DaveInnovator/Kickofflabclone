@@ -1,0 +1,16 @@
+section {
+    margin-top: 20px;
+    background-color: #f5f9fc;
+    text-align: center;
+}
+section .header h1 {
+    color: #3C4A5B;
+    text-align: center;
+    font-size: 3em;
+
+}
+
+section .header p {
+    font-size: 30px;
+    color: #3C4A5B;
+}

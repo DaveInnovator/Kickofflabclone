@@ -1,0 +1,108 @@
+.Hero {
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+margin-top: 9%;
+}
+.logo {
+    width: 20%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.header h1 {
+    color: #3C4A5B;
+    text-align: center;
+    font-size: 4em;
+}
+.contents {
+    display: flex;
+}
+.inputs {
+    margin: 10px 2%;
+}
+.images {
+    margin-right: 20%;
+}
+.inputs p {
+    color: #3C4A5B;
+    font-size: 1.5em;
+}
+.images img {
+    width: 60em;
+}
+
+form input {
+    padding: 20px 30%;
+    border:1px solid  #ccc;
+    outline: none !important;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+form input::placeholder {
+    font-size: 20px;
+    text-align: left;
+}  .text-with-lines {
+    position: relative;
+    display: inline-block;
+    margin-left: 50%;
+  }
+  .text-with-lines::before,
+  .text-with-lines::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 20px; /* Adjust the width of the lines as needed */
+    height: 2px; /* Adjust the height of the lines as needed */
+    background-color: black; /* Adjust the color of the lines as needed */
+    transform: translateY(-50%);
+  }
+  .text-with-lines::before {
+    left: -30px; /* Adjust the distance of the left line from the text */
+  }
+  .text-with-lines::after {
+    right: -30px; /* Adjust the distance of the right line from the text */
+  }
+.btn {
+    background-color: #60CBD0;
+    color: #fff;
+    font-size: 24px;
+    border-radius: 30px;
+    padding: 10px 15%;
+    margin-left: 4em;
+    
+    word-spacing: 20px;
+}
+.btn:hover {
+    color: #fff;
+}
+
+  @media screen and (max-width:768px) {
+    .contents {
+        flex-direction: column;
+    }
+    .images {
+        margin-left: 5px;
+    }
+    .images img {
+        width: 50%;
+    }
+    .header h1{
+        font-size: 1.5em;
+        margin-right: 50px;
+    }
+    form input {
+        padding: 20px 20%;
+        
+    }
+    .text-with-lines {
+        position: relative;
+        display: inline-block;
+        margin-left: 50%;
+      }
+  }
